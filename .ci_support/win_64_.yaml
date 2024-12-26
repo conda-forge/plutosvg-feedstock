@@ -8,6 +8,10 @@ channel_targets:
 - conda-forge main
 freetype:
 - '2'
+plutosvg:
+- 0.0.3
+plutovg:
+- 0.0.10
 target_platform:
 - win-64
 zlib:

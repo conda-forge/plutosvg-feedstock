@@ -18,6 +18,10 @@ freetype:
 - '2'
 macos_machine:
 - x86_64-apple-darwin13.4.0
+plutosvg:
+- 0.0.3
+plutovg:
+- 0.0.10
 target_platform:
 - osx-64
 zlib:
