@@ -9,9 +9,9 @@ channel_targets:
 freetype:
 - '2'
 plutosvg:
-- 0.0.3
+- 0.0.4
 plutovg:
-- 0.0.10
+- 0.0.11
 target_platform:
 - win-64
 zlib:
