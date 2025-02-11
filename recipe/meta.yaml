@@ -1,4 +1,4 @@
-{% set version = "0.0.4" %}
+{% set version = "0.0.5" %}
 
 package:
   name: plutosvg
@@ -6,10 +6,10 @@ package:
 
 source:
   url: https://github.com/sammycage/plutosvg/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 1fd07a15f701a045afa8cb3d2709709180b0d27edbb8f366322c74084684d215
+  sha256: b82fa5e361d841a8c1c3471060d9b87148169d5401592c23be5084cfb3b825b5
 
 build:
-  number: 2
+  number: 0
   run_exports:
     # 0-ver, so lets just pin to the patch version for now
     - {{ pin_subpackage('plutosvg', max_pin='x.x.x') }}
