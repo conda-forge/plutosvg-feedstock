@@ -17,7 +17,7 @@ docker_image:
 freetype:
 - '2'
 plutosvg:
-- 0.0.4
+- 0.0.5
 plutovg:
 - 0.0.12
 target_platform:
