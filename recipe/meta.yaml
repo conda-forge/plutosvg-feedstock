@@ -9,7 +9,7 @@ source:
   sha256: 01f8aee511bd587a602a166642a96522cc9522efd1e38c2d00e4fbc0aa22d7a0
 
 build:
-  number: 0
+  number: 1
   run_exports:
     # 0-ver, so lets just pin to the patch version for now
     - {{ pin_subpackage('plutosvg', max_pin='x.x.x') }}
