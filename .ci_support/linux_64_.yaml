@@ -17,9 +17,9 @@ docker_image:
 freetype:
 - '2'
 plutosvg:
-- 0.0.6
+- 0.0.7
 plutovg:
-- 1.0.0
+- 1.1.0
 target_platform:
 - linux-64
 zlib:
