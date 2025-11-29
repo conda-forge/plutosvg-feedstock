@@ -14,3 +14,7 @@ if %ERRORLEVEL% NEQ 0 exit /b %ERRORLEVEL%
 
 meson install -C build
 if %ERRORLEVEL% NEQ 0 exit /b %ERRORLEVEL%
+
+set PC=%LIBRARY_PREFIX%\lib\pkgconfig\plutosvg.pc
+findstr /V /R "^Requires\.private ^Libs\.private" "%PC%" > "%PC%.tmp"
+move /Y "%PC%.tmp" "%PC%" > nul
