@@ -3,7 +3,6 @@
 meson setup build ^
     %MESON_ARGS% ^
     --prefix="%LIBRARY_PREFIX%" ^
-    --buildtype=release ^
     -Dfreetype=enabled ^
     -Dexamples=disabled ^
     -Dtests=disabled
